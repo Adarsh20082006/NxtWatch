@@ -1,0 +1,184 @@
+/* === CSS RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === GLOBAL FONT AND COLORS === */
+body {
+  font-family: 'Roboto', sans-serif;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* === THEMING === */
+body.light {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+/* === LINKS === */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* === BUTTON DEFAULTS === */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* === INPUTS === */
+input {
+  font-family: inherit;
+  outline: none;
+}
+
+/* === SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* === UTILITY CLASSES === */
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-sm {
+  gap: 8px;
+}
+
+.gap-md {
+  gap: 16px;
+}
+
+.gap-lg {
+  gap: 24px;
+}
+
+/* === THEME SPECIFIC BACKGROUNDS === */
+.bg-light {
+  background-color: #f9f9f9;
+}
+
+.bg-dark {
+  background-color: #0f0f0f;
+}
+
+.bg-darker {
+  background-color: #0f0f0f;
+}
+
+.bg-deep-dark {
+  background-color: #181818;
+}
+
+.bg-card-light {
+  background-color: #ffffff;
+}
+
+.bg-card-dark {
+  background-color: #212121;
+}
+
+/* === TEXT COLORS === */
+.text-light {
+  color: #f1f5f9;
+}
+
+.text-dark {
+  color: #212121;
+}
+
+.text-muted-light {
+  color: #475569;
+}
+
+.text-muted-dark {
+  color: #cccccc;
+}
+
+.text-accent {
+  color: #3b82f6;
+}
+
+/* === ERROR COLORS === */
+.text-danger {
+  color: #ff0b37;
+}
+
+.bg-danger {
+  background-color: #ff0b37;
+}
+
+/* === BORDERS === */
+.border-light {
+  border: 1px solid #d7dfe9;
+}
+
+.border-dark {
+  border: 1px solid #383838;
+}
+
+/* === LOADER CONTAINER === */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* === POPUP STYLING === */
+.popup-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* === DATA TEST ID CONTAINERS === */
+[data-testid='home'],
+[data-testid='trending'],
+[data-testid='gaming'],
+[data-testid='savedVideos'],
+[data-testid='videoItemDetails'] {
+  min-height: 100vh;
+}

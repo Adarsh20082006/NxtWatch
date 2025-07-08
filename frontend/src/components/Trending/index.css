@@ -1,0 +1,101 @@
+.trending-main-container {
+    min-height: 100vh;
+}
+
+.trending-heading-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fire-icon {
+    color: red;
+    font-size: larger;
+}
+
+.trending-body-container {
+    padding: 15px;
+    width: 100%;
+}
+
+
+.trending-body-container.dark {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.trending-body-container.light {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+/* .thumbnail-container {
+  display: flex;
+  gap: 5px;
+  max-height: 300px;
+}
+.thumbnail-details {
+  flex: 1;
+}
+
+.thumbnail-img {
+  flex-grow: 0;
+  width: 350px;
+  height: 100%;
+} */
+.trending-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.trending-main-container-dark .trending-title {
+    color: #ffffff;
+}
+
+.video-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.failure-message-container,
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.failure-message-container img {
+    width: 300px;
+    margin-bottom: 16px;
+}
+
+.failure-msg {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.failure-text {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.trending-content-container {
+    display: flex;
+}

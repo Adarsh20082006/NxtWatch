@@ -1,0 +1,100 @@
+/* Navbar Styling */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-container.dark {
+    background-color: #181818;
+}
+
+.navbar-logo {
+    height: 30px;
+}
+
+.light-icon {
+    color: #ffffff;
+}
+
+.navbar-options-container {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.theme-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #64748b;
+    cursor: pointer;
+}
+
+.profile-img {
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.logout-trigger-btn {
+    padding: 8px 15px;
+    margin: auto 0;
+    background: transparent;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Popup Styles */
+
+.popup-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popup-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cancel-btn,
+.confirm-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    border: 1px solid #64748b;
+    color: #64748b;
+}
+
+.confirm-btn {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
