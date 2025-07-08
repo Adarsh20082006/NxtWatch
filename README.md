@@ -60,5 +60,5 @@ src/
 
 ``` 
     username : 'Rahul'
-    password : 'Ralul@2021'
+    password : 'Rahul@2021'
 ```
