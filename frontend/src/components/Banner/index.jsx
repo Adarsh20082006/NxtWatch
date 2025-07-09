@@ -11,15 +11,13 @@ const Banner = () => {
                 {val => {
                     const { theme } = val
                     return (
-                        <div data-testid="banner" className="banner-container">
+
+                        <div data-testid="banner" id="banner-lg" className="banner-container ">
                             <div className="banner-header-container">
                                 <img
                                     className="website-logo"
-                                    src={
-                                        theme === 'light'
-                                            ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
-                                            : 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'
-                                    }
+                                    src='https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
+
                                     alt="nxt watch logo"
                                 />
                                 <button

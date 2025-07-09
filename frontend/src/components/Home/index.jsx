@@ -143,7 +143,7 @@ const Home = () => {
                         <form className="searchbar-container" onSubmit={onSearch}>
                             <input
                                 type="search"
-                                className="searchbox"
+                                className={`searchbox ${theme}`}
                                 placeholder="Search"
                                 value={tempSearch}
                                 onChange={e => setTempSearch(e.target.value)}

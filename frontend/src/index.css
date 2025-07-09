@@ -159,11 +159,38 @@ input {
 }
 
 /* === RESPONSIVE === */
+@media (min-width: 768px) {
+  .navigator-menu {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .hide-mobile {
     display: none;
   }
+
+  #responsive-navigator {
+    display: none;
+  }
+
+  .logout-lg {
+    display: none;
+  }
+
+  .profile-lg {
+    display: none
+  }
+
+  .navigator-menu {
+    display: block;
+  }
+
+  #banner-lg {
+    display: none;
+  }
 }
+
 
 /* === POPUP STYLING === */
 .popup-content {

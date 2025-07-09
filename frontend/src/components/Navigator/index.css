@@ -1,7 +1,7 @@
 /* Sidebar */
 
-.navigator-container {
-    width: 221px;
+.responsive-navigator {
+    width: 230px;
     min-height: 92vh;
     position: sticky;
     top: 60px;
@@ -9,7 +9,6 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 20px 12px;
-    background-color: #ffffffd8;
 }
 
 .navigator-container.dark {

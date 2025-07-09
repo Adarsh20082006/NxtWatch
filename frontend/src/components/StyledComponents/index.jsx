@@ -9,7 +9,7 @@ const LoginTextbox = styled.input`
   outline: none;
   border: 1px solid #94a3b8;
   background-color: transparent;
-  color: inherit;
+  color: #fff;
 
   &:focus {
     border-color: #2563eb;

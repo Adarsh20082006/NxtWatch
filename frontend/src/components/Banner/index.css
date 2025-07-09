@@ -46,6 +46,10 @@
 
 .banner-cls {
     background: transparent;
-    border: 1px solid #5d5f63;
+    font-size: larger;
+    color: #35373b;
+}
+
+.banner-text {
     color: #35373b;
 }

@@ -1,6 +1,6 @@
 /* Navbar Styling */
 
-.navbar-container {
+.main-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +13,7 @@
     z-index: 1;
 }
 
-.navbar-container.dark {
+.main-navbar.dark {
     background-color: #181818;
 }
 
@@ -29,13 +29,13 @@
     display: flex;
     align-items: center;
     list-style-type: none;
-    gap: 20px;
+    gap: 1rem;
 }
 
 .theme-toggle-btn {
     background: none;
     border: none;
-    font-size: 14px;
+    font-size: 1rem;
     color: #64748b;
     cursor: pointer;
 }
@@ -97,4 +97,27 @@
 .confirm-btn {
     background-color: #3b82f6;
     color: #ffffff;
+}
+
+.navigator-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.link {
+    margin: 5px 0px;
+}
+
+.link.active {
+    color: #cb5656;
 }
