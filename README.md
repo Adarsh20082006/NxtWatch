@@ -59,6 +59,6 @@ src/
 ## Login Credentials:
 
 ``` 
-    username : 'Rahul'
-    password : 'Rahul@2021'
+    username : 'rahul'
+    password : 'rahul@2021'
 ```
